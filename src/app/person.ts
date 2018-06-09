@@ -5,7 +5,7 @@ export class Person {
     dateOfBirth: Date;
 
     /* Add a method to this model called getAge() which will return an accurate age based on the
-dateOfBirth */
+dateOfBirth 
     getAge(): number {
         let today: Date = new Date();
         let age: number = today.getFullYear() - this.dateOfBirth.getFullYear() ;
@@ -15,5 +15,5 @@ dateOfBirth */
             age--;
         }
         return age;
-    }
+    }*/
 }
